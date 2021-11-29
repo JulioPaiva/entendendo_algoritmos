@@ -1,15 +1,12 @@
 # Quicksort
- - Ordenação de listas. 
- - Utiliza o método dividir para conquistar. 
- - Utilize sempre o meio como pivo.
- - Seu pior caso é o mesmo da ordenação simples. 
+
+Ordenação de listas, utilizando o método dividir para conquistar.
 
 ## Dividir para conquistar
- - Uma maneira de como pensar no problema.
- - Quebra o problema em subproblemas. Resolve os subproblemas recursivamente. Combina as soluções para resolver o problema original.
+Funciona por meio da divisão do problema em problemas menores.
 
 ## Caso médio 
- - Pegamos um valor do meio da lista e fazemos o quicksort em suas partes. 
+Pegamos um valor do meio da lista como pivo, dividimos a lista e fazemos o quicksort em suas partes. 
 
 ## Pior caso
- - Pegamos um array ordenado e seu primeiro indice. Ele irá fazer a recursão somente em um lado, bem parecido com a pesquisa simples.
+Um array ordenado passando por um quicksort utilizando seu primeiro indice como pivo. Ele irá fazer a recursão somente em um lado, e passara por todos os elementos, bem parecido com a pesquisa simples.

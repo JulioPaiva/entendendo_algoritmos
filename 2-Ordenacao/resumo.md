@@ -1,23 +1,23 @@
 # Ordenação por Seleção
 
- - Faremos um algoritmo de ordenação.
- - Quando se quer armazenar muitos elementos usamos lista ou array.
+A memória de seu computador é como um conjunto de gavetas. Quando se quer armazenar múltiplos elementos, usa-se um array ou uma lista.
 
 ## Lista encadeada
- - Armazena um item em um espaço de memória e guarda referência para o próximo item. 
- - Cada item da lista não necessáriamente está um do lado do outro nos slots de memória.
- - Boa para distribuição e espaço de memória. 
- - Ruim quando quer acessar o último elemento da lista.
- - Melhores para adicionar um elemento no meio da lista.
+Os elementos são espalhados e um elemento guarda o endereço de memória do próximo elemento. Permite rápidas inserções e eliminações.
+
  - Tempo de execução para leitura O(n)
  - Tempo de execução para inserção O(1)
  - Tempo de execução para exclusão O(1)
 
 ## Arrays
- - Armazena seus itens sequencialmente na memória. 
- - Ruim para encontrar espaço em memória. 
- - Bom para ler elementos aleatórios.
- - Começa com indice 0.
+Todos os elementos são armazenados um ao lado do outro. Permite uma rápida leitura, se inicia com indice 0, seus elementos devem ser do mesmo tipo.
+
  - Tempo de execução para leitura O(1)
  - Tempo de execução para inserção O(n)
  - Tempo de execução para exclusão O(n)
+
+| - | Array | Lista |
+| ----- | ----- | ----- |
+| **Leitura** | O(1) | O(n) |
+| **Inserção** | O(n) | O(1) |
+| **Eliminação** | O(n) | O(1) |
