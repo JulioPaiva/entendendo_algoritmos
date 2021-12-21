@@ -4,6 +4,7 @@
 
 ![alt text](./files/capa.jpg)
 
+https://algoritmosempython.com.br/cursos/algoritmos-python/intro/
 
  - https://pt.wikipedia.org/wiki/Algoritmo_de_Euclides
  - https://pt.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms
